@@ -1,0 +1,193 @@
+#platform-search{
+    background: url("/img/index/bg@2x.png") no-repeat center/cover;
+    min-height: 13.34rem;
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+.search-more{
+    margin-left: 0.32rem;
+    font-weight: 600;
+    font-size: 0.28rem;
+}
+.select2-selection--single{
+    border: solid 0.03rem #000000 !important;
+    background-color: #f1f1f1 !important;
+    border-radius: 0.08rem !important;
+    position: relative;
+    left: 0.12rem;
+}
+.search-content, .title-search{
+    margin: 0 auto;
+    padding-left: 0.05rem;
+}
+.title-search{
+    width: 2.8rem;
+    height: 0.8rem;
+    margin-top: 0.5rem;
+    margin-left: 2.2rem;
+    display: inline-block;
+}
+.search-content{
+    width: 6.48rem;
+    height: 13.34rem;
+    max-height: 11.52rem;
+    background: #fff;
+    border-radius: 0.12rem;
+    border: solid 0.08rem #000000;
+    overflow-y: auto;
+}
+.search-input{
+    display: flex;
+    margin-top: 0.12rem;
+}
+.search-input select{
+    width: 4.74rem;
+    height: 1rem;
+    border-radius: 0.08rem;
+    border: solid 0.04rem #000000;
+    background-color: #f1f1f1;
+}
+.search-bit{
+    width: 1.4rem;
+    display: inline-block;
+    line-height: 0.84rem;
+    margin-top: 0.08rem;
+    margin-left: 0.14rem;
+}
+.second-title{
+    font-size: 0.28rem;
+    margin-left: 0.2rem;
+    font-weight: 600;
+    margin-top: 0.32rem;
+}
+.platform-list{
+    margin-top: 0.2rem;
+}
+.platform-item{
+    height: 0.88rem;
+    margin:0 0 0.2rem 0.2rem;
+}
+.platform-item span,.platform-item img{
+    vertical-align: middle;
+}
+.index-before-four, .index-after-four{
+    font-size: 0.36rem;
+    width: 0.4rem;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    text-align: center;
+    display: inline-block;
+}
+.index-after-four{
+    padding-left: 0.1rem;
+    padding-right:0.1rem ;
+    float: left;
+}
+.index-before-four {
+    border-radius: 50%;
+    background-color: #ddaf78;
+    padding: .05rem;
+    float: left;
+}
+.name-before-four, .name-after-four{
+    width: 3rem;
+    font-size: 0.32rem;
+    margin-left: 0.32rem;
+    display: inline-block;
+    float: left;
+}
+.name-before-four{
+    color: #9e5c0c;
+}
+.searchimg-bit{
+    width: 1.4rem;
+    height: 0.84rem;
+    margin:-.18rem 0.5rem 0 0;
+    float: right;
+    margin-right: 0.2rem;
+}
+/*select 样式修改*/
+.select2-selection--single, .select2-search__field{
+    width: 4.74rem;
+    height: 1rem !important;
+}
+.select2-dropdown{
+    border: none !important;
+}
+.select2-selection__arrow, .select2-selection__rendered{
+    margin-top: 0.2rem;
+}
+.select2-selection__rendered{
+    font-size: 0.32rem;
+    color: #6f6f6f;
+    margin-left: 0.2rem;
+}
+.select2-search__field{
+    border: solid 0.04rem #000000!important;
+    border-radius: 0.08rem;
+    position: relative;
+    top: -1.5rem;
+    left: 0.12rem;
+}
+.select2-search--dropdown{
+    padding: 0 !important;
+    height: 0 !important;
+}
+.select2-results{
+    width: 6.3rem;
+    font-size: 0.28rem;
+    background: #fff;
+    padding-bottom: 0.5rem;
+    border:none;
+}
+.select2-results__options{
+    width: 100%!important;
+    max-height: 5rem!important;
+    font-family: PingFangSC;
+}
+.select2-results__options li:nth-child(1){
+    display: none;
+}
+/*.select2-results__options li:nth-child(odd){
+    margin-left: 0.4rem;
+}*/
+.select2-container--default .select2-results__option--highlighted[aria-selected]{
+    color: #000!important;
+    background-color: #fff !important;
+}
+.select2-results__option{
+    width: 2.3rem;
+    float: left;
+    height: 0.4rem;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.select2-results:before{
+    content: "垃圾商平台:";
+    font-size: 0.28rem;
+    font-weight: 600;
+    margin: 0.32rem 0.16rem 0.1rem;
+    display: inline-block;
+}
+.select2-container--default .select2-selection--single{
+    border: 1px solid #000;
+}
+/*隐藏清空按钮*/
+.select2-selection__clear{
+    display: none !important;
+}
+.clear-item{
+    float: left;
+    font-size: 0.32rem;
+    color: #686868;
+    z-index: 999;
+    width: 0.64rem;
+    display: none;
+    background: #f1f1f1;
+    position: relative;
+    left: 3.8rem;
+    top: -1.66rem;
+}
